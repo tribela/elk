@@ -68,7 +68,7 @@
   },
   "app_desc_short": "민첩한 마스토돈 웹 클라이언트",
   "app_logo": "Elk 로고",
-  "app_name": "Elk",
+  "app_name": "Elk (Qdon)",
   "attachment": {
     "edit_title": "설명",
     "remove_label": "첨부파일 삭제"
@@ -271,30 +271,30 @@
   "pwa": {
     "dismiss": "설치하지 않기",
     "install": "설치",
-    "install_title": "Elk 설치",
+    "install_title": "Elk + Qdon 설치",
     "title": "새로운 Elk 업데이트가 가능합니다!",
     "update": "업데이트",
     "update_available_short": "업데이트 Elk",
     "webmanifest": {
       "canary": {
         "description": "민첩한 마스토돈 웹 클라이언트(카나리)",
-        "name": "Elk (카나리)",
-        "short_name": "Elk (카나리)"
+        "name": "Elk + Qdon (카나리)",
+        "short_name": "Elk + Qdon (카나리)"
       },
       "dev": {
         "description": "민첩한 마스토돈 웹 클라이언트(개발)",
-        "name": "Elk (개발)",
-        "short_name": "Elk (개발)"
+        "name": "Elk + Qdon (개발)",
+        "short_name": "Elk + Qdon (개발)"
       },
       "preview": {
         "description": "민첩한 마스토돈 웹 클라이언트(미리보기)",
-        "name": "Elk (미리보기)",
-        "short_name": "Elk (미리보기)"
+        "name": "Elk + Qdon (미리보기)",
+        "short_name": "Elk + Qdon (미리보기)"
       },
       "release": {
         "description": "민첩한 마스토돈 웹 클라이언트",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Elk + Qdon",
+        "short_name": "Elk + Qdon"
       }
     }
   },
