@@ -108,8 +108,8 @@ export default defineNuxtConfig({
       // our default translation server #76
       translateApi: '',
       // Use the instance where Elk has its Mastodon account as the default
-      defaultServer: 'm.webtoo.ls',
-      singleInstance: false,
+      defaultServer: process.env.NUXT_PUBLIC_DEFAULT_SERVER || 'qdon.space',
+      singleInstance: process.env.NUXT_PUBLIC_SINGLE_SERVER === 'true',
     },
     storage: {
       fsBase: 'node_modules/.cache/app',
