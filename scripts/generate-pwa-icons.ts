@@ -16,8 +16,8 @@ type IconType = 'transparent' | 'maskable' | 'apple'
 /**
  * PWA Icons definition:
  * - transparent: [{ sizes: [192, 512], padding: 0.05, resizeOptions: { fit: 'contain', background: 'transparent' } }]
- * - maskable: [{ sizes: [512], padding: 0.3 }, resizeOptions: { fit: 'contain', background: 'white' } }]
- * - apple: [{ sizes: [180], padding: 0.3 }, resizeOptions: { fit: 'contain', background: 'white' } }]
+ * - maskable: [{ sizes: [512], padding: 0.3 }, resizeOptions: { fit: 'contain', background: '#666' } }]
+ * - apple: [{ sizes: [180], padding: 0.3 }, resizeOptions: { fit: 'contain', background: '#666' } }]
  */
 interface Icons extends Record<IconType, Icon> {
   /**
@@ -64,7 +64,7 @@ const defaultIcons: Icons = {
     padding: 0.3,
     resizeOptions: {
       fit: 'contain',
-      background: 'white',
+      background: '#666',
     },
   },
   apple: {
@@ -72,7 +72,7 @@ const defaultIcons: Icons = {
     padding: 0.3,
     resizeOptions: {
       fit: 'contain',
-      background: 'white',
+      background: '#666',
     },
   },
 }
@@ -118,7 +118,7 @@ async function generateMaskableIcons(type: IconType, icons: ResolvedIcons, svgLo
         width: size,
         height: size,
         channels: 4,
-        background: resizeOptions?.background ?? 'white',
+        background: resizeOptions?.background ?? '#666',
       },
     }).composite([{
       input: await sharp(svgLogo)
