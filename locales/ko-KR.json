@@ -203,7 +203,7 @@
     "show_untranslated": "미번역본 보기",
     "toggle_theme": {
       "dark": "다크 모드 토글",
-      "light": "라이크 모드 토글"
+      "light": "라이트 모드 토글"
     },
     "translate_post": "게시물 번역",
     "unblock_account": "{0}을/를 차단 해제하기",
@@ -397,8 +397,8 @@
       "hide_follower_count": "팔로잉/팔로워 갯수 숨기기",
       "hide_reply_count": "댓글 갯수 숨기기",
       "hide_translation": "번역 숨기기",
-      "hide_username_emojis": "사용자 이름 이모지 숨기기",
-      "hide_username_emojis_description": "타임라인의 사용자 아이디에서 이모티콘을 숨깁니다. 이모티콘은 프로필에 계속 표시됩니다.",
+      "hide_username_emojis": "사용자 이름 에모지 숨기기",
+      "hide_username_emojis_description": "타임라인의 사용자 이름에서 에모지를 숨깁니다. 프로필 페이지에서는 계속 표시됩니다.",
       "label": "개인 설정",
       "title": "실험적 기능",
       "use_star_favorite_icon": "별을 좋아요 아이콘으로 사용",
@@ -454,11 +454,11 @@
       "finished": "{0} 마감됨"
     },
     "replying_to": "{0} 님에게 답글을 달았습니다",
-    "show_full_thread": "스레드 전체보기",
+    "show_full_thread": "글타래 전체보기",
     "someone": "누군가",
     "spoiler_show_less": "최소한으로 보기",
     "spoiler_show_more": "더 보기",
-    "thread": "스레드",
+    "thread": "글타래",
     "try_original_site": "원본 사이트에서 시도하기"
   },
   "status_history": {
@@ -548,7 +548,7 @@
   "visibility": {
     "direct": "다이렉트",
     "direct_desc": "멘션된 사용자만 볼 수 있음",
-    "private": "팔로워 전용",
+    "private": "비공개",
     "private_desc": "팔로워만 볼 수 있음",
     "public": "공개",
     "public_desc": "모두가 볼 수 있음",
