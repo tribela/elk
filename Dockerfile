@@ -25,6 +25,11 @@ COPY . ./
 # Run full install with every postinstall script ( This needs project file )
 RUN pnpm i --frozen-lockfile
 
+ARG SINGLE_INSTANCE=true
+ARG DEFAULT_SERVER=qdon.space
+ENV NUXT_PULIC_SINGLE_INSTANCE=$SINGLE_INSTANCE
+ENV NUXT_PUBLIC_DEFAULT_SERVER=$DEFAULT_SERVER
+
 # Build
 RUN pnpm build
 
