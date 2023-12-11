@@ -95,7 +95,7 @@ async function generateTransparentIcons(icons: ResolvedIcons, svgLogo: string, f
         width: size,
         height: size,
         channels: 4,
-        background: { r: 0, g: 0, b: 0, alpha: 0 },
+        background: '#666',
       },
     }).composite([{
       input: await sharp(svgLogo)
