@@ -87,7 +87,9 @@ function editPollOptionDraft(event: Event, index: number) {
 }
 
 function deletePollOption(index: number) {
-  draft.value.params.poll!.options = draft.value.params.poll!.options.slice().splice(index, 1)
+  const newPollOptions = draft.value.params.poll!.options.slice()
+  newPollOptions.splice(index, 1)
+  draft.value.params.poll!.options = newPollOptions
   trimPollOptions()
 }
 
@@ -138,7 +140,7 @@ const characterCount = computed(() => {
     length -= fullMatch.length - (before + username).length - 1 // - 1 for the @
 
   if (draft.value.mentions) {
-    // + 1 is needed as mentions always need a space seperator at the end
+    // + 1 is needed as mentions always need a space separator at the end
     length += draft.value.mentions.map((mention) => {
       const [handle] = mention.split('@')
       return `@${handle}`
@@ -155,6 +157,8 @@ const isExceedingCharacterLimit = computed(() => {
 })
 
 const postLanguageDisplay = computed(() => languagesNameList.find(i => i.code === (draft.value.params.language || preferredLanguage))?.nativeName)
+
+const isDM = computed(() => draft.value.params.visibility === 'direct')
 
 async function handlePaste(evt: ClipboardEvent) {
   const files = evt.clipboardData?.files
@@ -279,8 +283,12 @@ onDeactivated(() => {
           <EditorContent
             :editor="editor"
             flex max-w-full
-            :class="shouldExpanded ? 'min-h-30 md:max-h-[calc(100vh-200px)] sm:max-h-[calc(100vh-400px)] max-h-35 of-y-auto overscroll-contain' : ''"
+            :class="{
+              'min-h-30 md:max-h-[calc(100vh-200px)] sm:max-h-[calc(100vh-400px)] max-h-35 of-y-auto overscroll-contain': shouldExpanded,
+              'pt2 pb0.5 px3.5 bg-dm rounded-4 me--1 ms--1 mt--1': isDM,
+            }"
             @keydown="stopQuestionMarkPropagation"
+            @keydown.esc.prevent="editor?.commands.blur()"
           />
         </div>
 
