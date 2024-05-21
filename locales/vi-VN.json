@@ -28,7 +28,7 @@
     "go_to_profile": "Xem hồ sơ",
     "joined": "Đã tham gia",
     "lock": "KHÓA",
-    "moved_title": "cho hay địa chỉ mới của họ bây giờ là:",
+    "moved_title": "đã chuyển sang địa chỉ mới:",
     "muted_users": "Người đã ẩn",
     "muting": "Đã ẩn",
     "mutuals": "Theo dõi nhau",
@@ -58,6 +58,7 @@
     "boost": "Đăng lại",
     "boost_count": "{0}",
     "boosted": "Đã đăng lại",
+    "clear": "Xóa",
     "clear_publish_failed": "Xóa lỗi khi đăng tút",
     "clear_save_failed": "Xóa lỗi khi lưu tút",
     "clear_upload_failed": "Xóa lỗi khi xóa file",
@@ -72,6 +73,7 @@
     "favourited": "Đã thích",
     "more": "Xem thêm",
     "next": "Kế tiếp",
+    "open_image_preview_dialog": "Mở hộp thoại xem trước hình ảnh",
     "prev": "Trước đó",
     "publish": "Đăng",
     "publish_thread": "Đăng chuỗi tút",
@@ -185,7 +187,7 @@
     "account_not_found": "Không tìm thấy {0}",
     "explore_list_empty": "Chưa có xu hướng. Hãy quay lại sau!",
     "file_size_cannot_exceed_n_mb": "Dung lượng file tối đa {0}MB",
-    "sign_in_error": "Không thể kết nối tới máy chủ.",
+    "sign_in_error": "Không thể kết nối đến máy chủ.",
     "status_not_found": "Không tìm thấy tút",
     "unsupported_file_format": "Định dạng file không được hỗ trợ"
   },
@@ -196,7 +198,7 @@
       "desc3": "Đừng đăng nhập bằng tài khoản chính.",
       "title": "Bản dựng"
     },
-    "desc_highlight": "Sẽ có một số lỗi và tính năng bị thiếu ở đây.",
+    "desc_highlight": "Sẽ có lỗi và một số tính năng bị thiếu.",
     "desc_para1": "Elk là một ứng dụng web Mastodon nhanh nhẹn. Sử dụng để đăng nhập Mastodon và tương tác với Fediverse.",
     "desc_para2": "Elk là Mã Nguồn Mở và chúng tôi cải tiến nó như một dự án cộng đồng. Hãy tham gia và cùng xây dựng!",
     "desc_para3": "Để thúc đẩy sự phát triển, bạn có thể tài trợ cho Nhóm thông qua GitHub Sponsors. Chúng tôi hy vọng bạn thích Elk!",
@@ -221,6 +223,7 @@
     "error": "Xảy ra lỗi khi tạo danh sách",
     "error_prefix": "Lỗi: ",
     "list_title_placeholder": "Tên danh sách",
+    "manage": "Quản lý danh sách",
     "modify_account": "Sửa danh sách có người này",
     "remove_account": "Xóa người ra khỏi danh sách",
     "save": "Lưu thay đổi"
@@ -316,6 +319,7 @@
     "list": "Danh sách",
     "lists": "Danh sách",
     "local": "Máy chủ",
+    "more_menu": "Thêm",
     "muted_users": "Người đã ẩn",
     "notifications": "Thông báo",
     "privacy": "Bảo mật",
@@ -342,8 +346,8 @@
   },
   "placeholder": {
     "content_warning": "Viết cảnh báo của bạn ở đây",
-    "default_1": "Bạn đang nghĩ gì vậy?",
-    "reply_to_account": "Trả lời {0}",
+    "default_1": "Bạn đang nghĩ gì đó?",
+    "reply_to_account": "Trả lời đến {0}",
     "replying": "Trả lời"
   },
   "polls": {
@@ -352,7 +356,7 @@
     "create": "Tạo bình chọn",
     "disallow_multiple": "Chỉ chọn một lựa chọn",
     "expiration": "Hết hạn",
-    "hide_votes": "Ẩn số lượt bình chọn cho tới khi hết hạn",
+    "hide_votes": "Ẩn số lượt bình chọn đến khi hết hạn",
     "option_placeholder": "Lựa chọn {current}/{max}",
     "remove_option": "Xóa lựa chọn",
     "settings": "Tùy chọn",
@@ -399,8 +403,8 @@
     "block_desc": "Bạn sẽ không còn thấy tút của người này. Họ sẽ không thể thấy tút của bạn hoặc theo dõi bạn. Họ biết là bạn đã chặn họ.",
     "dontlike": "Tôi không thích nó",
     "dontlike_desc": "Đó không phải là thứ gì mà bạn muốn thấy",
-    "forward": "Gửi luôn báo cáo tới {0}",
-    "forward_question": "Bạn có chắc muốn gửi luôn báo cáo tới máy chủ của người này?",
+    "forward": "Gửi luôn báo cáo đến {0}",
+    "forward_question": "Bạn có chắc muốn gửi luôn báo cáo đến máy chủ của người này?",
     "further_actions": {
       "limit": {
         "description": "Đây là cách kiểm soát những thứ mà bạn thấy:",
@@ -438,7 +442,7 @@
       "label": "Giới thiệu",
       "meet_the_team": "Đội ngũ",
       "sponsor_action": "Tài trợ",
-      "sponsor_action_desc": "Hỗ trợ đội ngũ phát triển Elk",
+      "sponsor_action_desc": "Ủng hộ đội ngũ phát triển Elk",
       "sponsors": "Nhà tài trợ",
       "sponsors_body_1": "Elk được thực hiện nhờ sự tài trợ và giúp đỡ hào phóng của:",
       "sponsors_body_2": "Và tất cả các công ty, cá nhân tài trợ cho đội ngũ Elk.",
@@ -450,6 +454,8 @@
       "label": "Cài đặt tài khoản"
     },
     "interface": {
+      "bottom_nav": "Menu dưới màn hình",
+      "bottom_nav_instructions": "Chọn tối đa năm nút điều hướng yêu thích của bạn. Bao gồm nút \"Thêm\" ",
       "color_mode": "Chủ đề",
       "dark_mode": "Tối",
       "default": " (mặc định)",
@@ -488,14 +494,14 @@
           "title": "Bạn muốn nhận những kiểu thông báo nào?"
         },
         "description": "Nhận thông báo kể cả khi bạn không sử dụng Elk.",
-        "instructions": "Đừng quên lưu các thay đổi của bạn bằng cách @:settings.notifications.push_notifications.save_settings button!",
+        "instructions": "Nhớ @:settings.notifications.push_notifications.save_settings sau khi chọn xong!",
         "label": "Cài đặt thông báo đẩy",
         "policy": {
           "all": "Từ bất kỳ ai",
-          "followed": "Từ người tôi theo dõi",
-          "follower": "Từ người theo dõi tôi",
+          "followed": "Từ người bạn theo dõi",
+          "follower": "Từ người theo dõi bạn",
           "none": "Không ai cả",
-          "title": "Tôi sẽ nhận thông báo từ ai?"
+          "title": "Bạn muốn nhận thông báo từ ai?"
         },
         "save_settings": "Lưu cài đặt",
         "subscription_error": {
@@ -629,8 +635,8 @@
     },
     "poll": {
       "count": "{0} bình chọn|{0} bình chọn|{0} bình chọn",
-      "ends": "kết thúc {0}",
-      "finished": "hết hạn {0}"
+      "ends": "đóng {0}",
+      "finished": "kết thúc {0}"
     },
     "replying_to": "Trả lời {0}",
     "show_full_thread": "Chuỗi tút liên quan",
@@ -730,7 +736,7 @@
     "pick_an_icon": "Chọn biểu tượng",
     "publish_failed": "Đóng các thông báo không thành công để đăng lại tút",
     "remove_thread_item": "Xóa tút khỏi chuỗi",
-    "start_thread": "Bắt đầu chuỗi tút",
+    "start_thread": "Tạo chuỗi tút",
     "toggle_bold": "In đậm",
     "toggle_code_block": "Đoạn mã",
     "toggle_italic": "In nghiêng"
