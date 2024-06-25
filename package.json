@@ -2,7 +2,7 @@
   "name": "@elk-zone/elk",
   "type": "module",
   "version": "0.14.0",
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@9.4.0",
   "license": "MIT",
   "homepage": "https://elk.zone/",
   "main": "./nuxt.config.ts",
@@ -64,7 +64,7 @@
     "@vueuse/gesture": "^2.0.0",
     "@vueuse/integrations": "^10.8.0",
     "@vueuse/math": "^10.8.0",
-    "@vueuse/motion": "2.1.0",
+    "@vueuse/motion": "2.2.3",
     "@vueuse/nuxt": "^10.8.0",
     "blurhash": "^2.0.5",
     "browser-fs-access": "^0.35.0",
@@ -82,7 +82,7 @@
     "iso-639-1": "^3.0.0",
     "js-yaml": "^4.1.0",
     "lru-cache": "^10.0.0",
-    "masto": "^6.7.0",
+    "masto": "^6.7.5",
     "node-emoji": "^2.1.3",
     "nuxt-security": "^0.13.1",
     "page-lifecycle": "^0.1.2",
@@ -139,7 +139,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsx": "^4.7.2",
     "typescript": "^5.4.4",
-    "vitest": "1.4.0",
+    "vitest": "1.6.0",
     "vue-tsc": "^2.0.10"
   },
   "pnpm": {
@@ -151,7 +151,7 @@
     }
   },
   "resolutions": {
-    "vitest": "1.4.0",
+    "vitest": "1.6.0",
     "vue": "^3.4.21"
   },
   "simple-git-hooks": {
