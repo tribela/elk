@@ -261,7 +261,7 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       ],
       meta: [
-        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
         // open graph social image
         { property: 'og:title', content: 'Elk' },
         { property: 'og:description', content: 'A nimble Mastodon web client' },
@@ -276,7 +276,7 @@ export default defineNuxtConfig({
     },
   },
 
-  // eslint-disable-next-line ts/prefer-ts-expect-error
+  // eslint-disable-next-line ts/ban-ts-comment
   // @ts-ignore nuxt-security is conditional
   security: {
     headers: {
@@ -333,6 +333,10 @@ declare global {
 }
 
 declare module '#app' {
+  interface PageMeta {
+    wideLayout?: boolean
+  }
+
   interface RuntimeNuxtHooks {
     'elk-logo:click': () => void
   }
