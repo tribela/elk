@@ -561,6 +561,7 @@
       "label": "Preferenze",
       "optimize_for_low_performance_device": "Ottimizza per dispositivi a basse prestazioni",
       "title": "Funzionalità sperimentali",
+      "unmute_videos": "Riproduci video con volume attivo di default",
       "use_star_favorite_icon": "Usa icona stella per apprezzamenti",
       "user_picker": "Selettore utente",
       "user_picker_description": "Mostra gli avatar di tutti gli account connessi in basso a sinistra così da poter cambiare account in un attimo.",
@@ -639,7 +640,8 @@
     "poll": {
       "count": "{0} voti|{0} voto|{0} voti",
       "ends": "termina {0}",
-      "finished": "terminato {0}"
+      "finished": "terminato {0}",
+      "update": "Aggiorna sondaggio"
     },
     "replying_to": "In risposta a {0}",
     "show_full_thread": "Mostra discussione",
@@ -749,7 +751,7 @@
     "add_existing": "Aggiungi account esistente",
     "server_address_label": "Indirizzo istanza Mastodon",
     "sign_in_desc": "Accedi per seguire profili o hashtag, apprezzare, condividere e rispondere a post o interagire dal tuo account su un'altra istanza.",
-    "sign_in_notice_title": "Visualizzando {0} dati pubblici",
+    "sign_in_notice_title": "Visualizzando i dati pubblici di {0}",
     "sign_out_account": "Esci {0}",
     "single_instance_sign_in_desc": "Accedi per seguire profili o hastag, apprezzare condividere o rispondere a post.",
     "tip_no_account": "Se ancora non hai un account Mastodon, {0}.",
