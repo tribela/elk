@@ -12,7 +12,7 @@ import type { ContentParseOptions } from '~/composables/content-parse'
 import { contentToVNode } from '~/composables/content-render'
 
 beforeEach(() => {
-  publicServer.value = useRuntimeConfig().public.defaultServer
+  publicServer.value = 'm.webtoo.ls'
 })
 
 describe('content-rich', () => {
